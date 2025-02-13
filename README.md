@@ -1,6 +1,6 @@
 # Linear Transformers as VAR Models:  Aligning Autoregressive Attention Mechanisms with Autoregressive Forecasting
 
-This repository provides the official implementation of SAMoVAR. The visualization in the paper can be found at `visualization/`. The main model can be found in `models/AutoregressiveAlignment.py`, where the core codes of SAMoVAR structure are as follows:
+This repository provides the official implementation of [SAMoVAR](https://arxiv.org/abs/2502.07244). The visualization in the paper can be found at `visualization/`. The main model can be found in `models/AutoregressiveAlignment.py`, where the core codes of SAMoVAR structure are as follows:
 
 ```python
 # SAMoVAR Attention
