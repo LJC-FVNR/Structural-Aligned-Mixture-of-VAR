@@ -204,7 +204,7 @@ class Transformer(nn.Module):
             index = len(self.attn)
 
             S = self.generate_S(get_inverse=False)  # structural matrix D in the paper
-            for attn in zip(self.attn):
+            for attn in self.attn:
                 index -= 1
                 x = attn(x, qv_input=x_orig)
                 attn_res.append(x.view(BC, N//2, 2, D)[:, :, 1, :])
